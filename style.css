@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: white;
+
+}
+
+.text {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.text-title {
+  font-size: 64px;
+  text-transform: uppercase;
+}
+
+.text-p {
+  width: 65%;
+  padding: 15px 25px;
+  background-color: blue;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.formulario {
+    background-color: black;
+    width: 320px;
+    height: 380px;
+    padding: 50px;
+    border-radius: 8px;
+    border: 3px solid gray;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.imagem-form {
+    align-self: center;
+    width: 80px;
+}
+
+.input-form {
+    color: white;
+    padding: 15px;
+    background-color: rgba(48, 47, 47, 0.413);
+    border-radius: 8px;
+    border: none;
+}
+
+.input-button {
+    background-color: blue;
+    align-items: center;
+    padding: 10px 0;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.text-form {
+    text-align: center;
+}
+
+.span-form {
+    color: blue;
+    cursor: pointer;
+}
